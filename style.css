@@ -1,0 +1,28 @@
+/* importing google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+a {
+    text-decoration: none;
+}
+.project-name {
+    text-align: center;
+    padding: 20px 0;
+    font-style:oblique;
+    background-image: linear-gradient(yellow,red);
+}
+.next-pro {
+    padding: 15px;
+    margin: 20px 0;
+    margin-left: 45%;
+    border-radius: 5px;
+    font-size: large;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
