@@ -26,3 +26,34 @@ a {
     color: white;
     border: none;
 }
+button:hover {
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+.container .color {
+    background-color: #fff;
+    list-style: none;
+    margin: 13px;
+    padding: 7px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+.color .react-box {
+    width: 185px;
+    height: 188px;
+    background-color: #8A6CFF;
+}
+.color .hex-value {
+    display: block;
+    color: #444;
+    margin: 12px 0 8px;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
