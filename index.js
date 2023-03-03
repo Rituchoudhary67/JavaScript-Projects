@@ -4,6 +4,9 @@ const refreshBtn = document.querySelector(".ref-btn");
 // step2 makeing that function 
 function randomColor() {
 //   console.log("hello")
+let randomNo = Math.floor(Math.random() * 0xffffff).toString(16);
+// randomNo = `#{$randomNo.pad}`
+console.log(randomNo)
 
 }
 
