@@ -1,0 +1,16 @@
+
+1.  filter
+The filter property defines visual effects (like blur and saturation) to an element (often <img>).
+
+a]. none :- default value , no effect will apply.
+b]. blur(px) :- applies blur effect.
+c]. brightness(%) :- Adjusts the brightness of the image/some box contaent.
+d]. contrast(%) :- Adjusts the contrast of the image.
+e]. drop-shadow(h-shadow v-shadow blur spread color) :- it will give shadow to our img.
+f]. filter: grayscale(%); :- it will make our img blck and white like older time.
+g]. filter: hue-rotate(deg); :- it will rotate the img color, the max is 360deg.
+h]. filter: invert(%); :- it invert the hole img.
+i]. filter: opacity(30%);
+j]. filter: saturate(8);
+k]. filter: sepia(100%);
+l]. filter: contrast(200%) brightness(150%);
