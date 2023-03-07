@@ -1,4 +1,4 @@
-
+//css notes 
 1.  filter
 The filter property defines visual effects (like blur and saturation) to an element (often <img>).
 
@@ -14,3 +14,13 @@ i]. filter: opacity(30%);
 j]. filter: saturate(8);
 k]. filter: sepia(100%);
 l]. filter: contrast(200%) brightness(150%);
+
+//js notes 
+1. padStart
+The padStart() method pads the current string with another string (multiple times, if needed) until the resulting 
+string reaches the given length. The padding is applied from the start of the current string.
+
+let text = 4;
+padStart(5,"0")   //output :- 00004
+padStart(8,"0")   //output :- 00000004
+padStart(2,"0")   //output :- 04
