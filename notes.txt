@@ -17,7 +17,7 @@ l]. filter: contrast(200%) brightness(150%);
 
 //js notes 
 1. padStart
-The padStart() method pads the current string with another string (multiple times, if needed) until the resulting 
+The padStart() method pads the current string with another string (multiple times, if needed) until the resulting. 
 string reaches the given length. The padding is applied from the start of the current string.
 
 let text = 4;
