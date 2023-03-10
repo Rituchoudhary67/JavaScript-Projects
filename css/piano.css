@@ -73,7 +73,7 @@ header .column span {
     cursor: pointer;
     appearance: none;
     border-radius: 30px;
-    background: #4b4b4b4b;
+    background: #4b4b4b;
     position: relative;
 }
 .keys-checkbox input::before {
