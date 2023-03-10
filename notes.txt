@@ -24,3 +24,6 @@ let text = 4;
 padStart(5,"0")   //output :- 00004
 padStart(8,"0")   //output :- 00000004
 padStart(2,"0")   //output :- 04
+
+
+//.....
